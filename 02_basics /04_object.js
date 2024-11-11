@@ -37,3 +37,33 @@ const user = [
 console.log(user[0].email)
 
 console.log(Object.keys(regularUser))
+
+
+
+//Object de-structuring 
+
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor)
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+
+]
